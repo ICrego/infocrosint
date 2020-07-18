@@ -1,5 +1,3 @@
-# -*- coding:utf-8 -*-
-
 import os , json , sys
 from modulos import config
 from modulos import ipgeolocation
@@ -101,7 +99,6 @@ if __name__ == "__main__":
     i=0
     for arg in sys.argv:
         if argumento != 3:
-            os.system ('clear')
             ayuda()
         if argumento == 3:
             if arg == '-h':
